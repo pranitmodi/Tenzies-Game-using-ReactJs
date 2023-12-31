@@ -1,0 +1,18 @@
+.btn
+{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    width: 100%;
+}
+@media screen and (max-width: 780px)
+{
+
+    .btn
+    {
+        padding: 5px;
+        width: 100px;
+    }
+}

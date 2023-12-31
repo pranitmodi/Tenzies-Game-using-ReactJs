@@ -1,0 +1,35 @@
+.mainDiv
+{
+  margin: 50px 300px;
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 34px;
+  border-radius: 10px;
+}
+.mainDiv h1
+{
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+.mainDiv h3
+{
+  font-size: 25px;
+  width: 70%;
+  margin: auto;
+}
+@media screen and (max-width: 850px)
+{
+  .mainDiv
+  {
+    margin: 40px 50px;
+    padding: 25px;
+  }
+  .mainDiv h1
+  {
+    font-size: 35px;
+  }
+  .mainDiv h3
+  {
+    font-size: 25px;
+  }
+}
