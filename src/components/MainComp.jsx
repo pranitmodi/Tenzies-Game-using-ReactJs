@@ -1,6 +1,6 @@
 import "./mainComp.css"
 import React, { useEffect } from 'react';
-import Btn from "./btn";
+import Btn from "./Btn";
 
 const MainComp = () => {
 
