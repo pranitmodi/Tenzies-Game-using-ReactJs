@@ -1,6 +1,6 @@
 .mainComp
 {
-    margin-top: 60px;
+    margin-top: 3rem;
 }
 .dices
 {
@@ -19,4 +19,15 @@
     font-size: 25px;
     font-weight: 600;
     background-color: aqua;
+}
+@media only screen and (max-width: 800px)
+{
+    .dices
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mainComp button
+    {
+        font-size: 1.5rem;
+    }
 }

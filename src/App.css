@@ -1,35 +1,40 @@
 .mainDiv
 {
-  margin: 50px 300px;
+  /* margin: 5rem 20rem; */
+  margin: auto;
+  margin-top: 4rem;
+  width: 60%;
   text-align: center;
   background-color: #F5F5F5;
-  padding: 34px;
+  padding: 2rem;
   border-radius: 10px;
 }
 .mainDiv h1
 {
-  margin-bottom: 20px;
-  font-size: 50px;
+  margin-bottom: 2rem;
+  font-size: 3em;
 }
 .mainDiv h3
 {
-  font-size: 25px;
-  width: 70%;
+  font-size: 1.5em;
+  width: 75%;
   margin: auto;
 }
-@media screen and (max-width: 850px)
+@media only screen and (max-width: 800px)
 {
   .mainDiv
   {
-    margin: 40px 50px;
-    padding: 25px;
+    margin-top: 1.3rem;
+    width: 90%;
   }
   .mainDiv h1
   {
-    font-size: 35px;
+    font-size: 2em;
+    margin-bottom: 1rem;
   }
   .mainDiv h3
   {
-    font-size: 25px;
+    width: 90%;
+    font-size: 1em;
   }
 }
