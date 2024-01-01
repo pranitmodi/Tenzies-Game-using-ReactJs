@@ -1,5 +1,5 @@
 import './App.css'
-import MainComp from './components/mainComp'
+import MainComp from "./components/MainComp"
 
 function App() {
 
