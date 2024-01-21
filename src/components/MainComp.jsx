@@ -1,5 +1,6 @@
 import "./mainComp.css"
 import React, { useEffect } from 'react';
+import Confetti from 'react-confetti';
 import Btn from "./Btn";
 
 const MainComp = () => {
@@ -85,6 +86,16 @@ const MainComp = () => {
                 {diceEle}
             </div>
             <button onClick={Roll}>{tenzies ? `Reset the game` : `Roll`}</button>
+            {tenzies && (
+  <Confetti
+    numberOfPieces={200}
+    recycle={false}
+    wind={0.6}
+    gravity={0.2}
+    initialVelocityX={2}
+    initialVelocityY={-5}
+  />
+)}
         </div>
     )
 }
